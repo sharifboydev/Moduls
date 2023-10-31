@@ -77,5 +77,35 @@ import random as r
 # print(a__plus__b)
 
 
-ismlar = ['hasan', 'husan', 'olim', 'umid']
-print(list(map(lambda matn:matn.upper(),ismlar)))
+# ismlar = ['hasan', 'husan', 'olim', 'umid']
+# print(list(map(lambda matn: matn.upper(), ismlar)))
+
+# import random as r
+
+# sonlar = r.sample(range(100), 10)
+
+
+# def juftmi(x):
+#     return x % 2 == 0
+#
+#
+# juft_sonlar = list(filter(juftmi, sonlar))
+# print(sonlar)
+# print(juft_sonlar)
+
+# import random as r
+#
+# sonlar = r.sample(range(100), 10)
+# juft_sonlar = list(filter(lambda son: son % 2 == 0, sonlar))
+#
+# print(sonlar)
+# print(juft_sonlar)
+
+
+# mevalar = ['olma', 'anjir', 'shaftoli', 'tarvuz', 'bexi', 'banan']
+#
+# mevalar_b = list(filter(lambda meva: meva.startswith('b'), mevalar))
+# print(mevalar_b)
+#
+# mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
+# print(mevalar2)
